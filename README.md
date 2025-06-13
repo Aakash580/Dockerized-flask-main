@@ -13,7 +13,7 @@
 - Run `docker build -t my-flask-app .`
 
 ## Use the docker BuildX 
-docker buildx build --load -t your-image-name .
+docker buildx build --load -t your-image-name . 
 
 ## To push the image to a container registry (e.g., Docker Hub,ECR)
 docker buildx build --push -t your-repo/your-image-name .
@@ -30,7 +30,7 @@ docker buildx build --push -t your-repo/your-image-name .
 - Or open http://localhost:5000/ in your browser
 
 ## Use the docker BuildX 
-docker buildx build --load -t your-image-name .
+- 'docker buildx build --load -t your-image-name .'
 
 ## To push the image to a container registry (e.g., Docker Hub,ECR)
 docker buildx build --push -t your-repo/your-image-name .
